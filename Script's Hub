@@ -1,4 +1,4 @@
---[[Supported Games
+--Supported Games
 
 Tower Of Misery
 No Jumping Difficulty Chart Obby
@@ -14,7 +14,7 @@ Squid Game
 Pop It Simulator
 Jetpack Jumpers
 YouTube Simulator X
---]]
+
 
 if game.PlaceId == 4954752502 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Tower%20Of%20Misery%202", true))()
