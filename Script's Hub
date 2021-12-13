@@ -1,4 +1,4 @@
---Supported Games
+--[[Supported Games
 
 Tower Of Misery
 No Jumping Difficulty Chart Obby
@@ -14,6 +14,7 @@ Squid Game
 Pop It Simulator
 Jetpack Jumpers
 YouTube Simulator X
+--]]
 
 
 if game.PlaceId == 4954752502 then
@@ -35,44 +36,44 @@ elseif game.PlaceId == 6824046084 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Silly's%20Difficulty%20Chart%20Obby", true))()
 end
 
-elseif game.PlaceId == 3652625463 then
+if game.PlaceId == 3652625463 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Lifting%20Simulator", true))()
 end
 
-elseif game.PlaceId == 6875469709 then
+if game.PlaceId == 6875469709 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Strongest%20Punch%20Simulator", true))()
 end
 
-elseif game.PlaceId == 3527629287 then
+if game.PlaceId == 3527629287 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20Auto%20Farm", true))()
 end
 
-elseif game.PlaceId == 3527629287 then
+if game.PlaceId == 3527629287 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20%7C%20Unlock%20All", true))()
 end
 
-elseif game.PlaceId == 277751860 then
+if game.PlaceId == 277751860 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Epic%20Minigames", true))()
 end
 
-elseif game.PlaceId == 7549229959 then
+if game.PlaceId == 7549229959 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Squid%20Game", true))()
 end
 
-elseif game.PlaceId == 7239452266 then
+if game.PlaceId == 7239452266 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pop%20It%20Simulator", true))()
 end
 
-elseif game.PlaceId == 7444263453 then
+if game.PlaceId == 7444263453 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jetpack%20Jumpers", true))()
 end
 
 
-elseif game.PlaceId == 7444263453 then
+if game.PlaceId == 7444263453 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jetpack%20Jumpers", true))()
 end
 
-elseif game.PlaceId == 7453798168 then
+if game.PlaceId == 7453798168 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/YTSX", true))()
 end
 
