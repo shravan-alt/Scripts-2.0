@@ -1,0 +1,14 @@
+if game.PlaceId == 3527629287 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20Auto%20Farm", true))()
+
+elseif game.PlaceId == 3527629287 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20%7C%20Unlock%20All", true))()
+
+
+elseif game.PlaceId == 3527629287 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20Auto%20Farm", true))()
+
+
+elseif game.PlaceId == 3527629287 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20%7C%20Unlock%20All", true))()
+end
