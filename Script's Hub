@@ -81,6 +81,9 @@ if game.PlaceId == 606849621 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak", true))()
 end
 
+if game.PlaceId == 4704006941 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Blade%20Throwing%20Simulator", true))()
+end
 
 
 
