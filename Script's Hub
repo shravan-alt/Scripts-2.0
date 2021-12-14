@@ -22,6 +22,7 @@ Pet Sim X
 
 if game.PlaceId == 4954752502 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Tower%20Of%20Misery%202", true))()
+end
 
 elseif game.PlaceId == 5874128725 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/No%20Jumping%20Difficulty%20Chart%20Obby", true))()
