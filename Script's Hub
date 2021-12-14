@@ -39,54 +39,41 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/m
 elseif game.PlaceId == 6824046084 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Silly's%20Difficulty%20Chart%20Obby", true))()
 
-
 elseif game.PlaceId == 3652625463 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Lifting%20Simulator", true))()
-
 
 elseif game.PlaceId == 6875469709 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Strongest%20Punch%20Simulator", true))()
 
-
 elseif game.PlaceId == 3527629287 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Big%20PaintBall%20Auto%20Farm", true))()
-
 
 elseif game.PlaceId == 3527629287 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Big%20PaintBall%20%7C%20Unlock%20All%20Guns", true))()
 
-
 elseif game.PlaceId == 277751860 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Epic%20Minigames", true))()
-
 
 elseif game.PlaceId == 7549229959 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Squid%20Game", true))()
 
-
 elseif game.PlaceId == 7239452266 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Pop%20It%20Simulator", true))()
-
 
 elseif game.PlaceId == 7444263453 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Jetpack%20Jumpers", true))()
 
-
 elseif game.PlaceId == 7453798168 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/YTSX", true))()
-
 
 elseif game.PlaceId == 606849621 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Jailbreak", true))()
 
-
 elseif game.PlaceId == 4704006941 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Blade%20Throwing%20Simulator", true))()
 
-
 elseif game.PlaceId == 6284583030 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Pet%20Sim%20X", true))()
-
 
 elseif game.PlaceId == 606849621 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/Jailbreak%202", true))()
