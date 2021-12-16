@@ -106,5 +106,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 end
 
 elseif game.PlaceId == 6677985923 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Millionaire%20Empire%20Tycoon", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub", true))()
 end
