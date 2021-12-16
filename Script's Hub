@@ -18,6 +18,7 @@ Jailbreak
 Blade Throwing Simulator
 Pet Sim X
 Piggy
+🌎 Mad City
 --]]
 
 if game.PlaceId == 4954752502 then
@@ -98,4 +99,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 
 elseif game.PlaceId == 4623386862 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Piggy", true))()
+end
+
+elseif game.PlaceId == 1224212277 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Mad%20City", true))()
 end
