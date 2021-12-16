@@ -27,6 +27,7 @@ Color Block
 Assassin!
 Anime Training Simulator
 Project Hero
+Anime Fighters Simulator
 --]]
 
 if game.PlaceId == 4954752502 then
