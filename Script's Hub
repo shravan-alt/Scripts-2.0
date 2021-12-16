@@ -20,6 +20,13 @@ Pet Sim X
 Piggy
 🌎 Mad City
 Millionaire Empire Tycoon
+Pet Fighters Simulator
+Da Hood
+SAITAMANIA
+Color Block
+Assassin!
+Anime Training Simulator
+Project Hero
 --]]
 
 if game.PlaceId == 4954752502 then
@@ -94,7 +101,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 elseif game.PlaceId == 6284583030 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pet%20Sim%20X", true))()
 
-
 elseif game.PlaceId == 606849621 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak%202", true))()
 
@@ -103,8 +109,42 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 
 elseif game.PlaceId == 1224212277 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Mad%20City", true))()
-end
 
 elseif game.PlaceId == 6677985923 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub", true))()
+
+elseif game.PlaceId == 7449695387 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pet%20Fighters%20Simulator", true))()
+
+elseif game.PlaceId == 2788229376 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Da%20Hood", true))()
+
+elseif game.PlaceId == 6802248248 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/SAITAMANIA", true))()
+
+elseif game.PlaceId == 5926001758 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Color%20Block", true))()
+
+elseif game.PlaceId == 379614936 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Assassin!", true))()
+
+elseif game.PlaceId == 7114796110 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Training%20Simulator", true))()
+
+elseif game.PlaceId == 6085581583 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Project%20Hero", true))()
+
+elseif game.PlaceId == 6299805723 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Fighters%20Simulator", true))()
 end
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
