@@ -139,7 +139,7 @@ elseif game.PlaceId == 6299805723 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Fighters%20Simulator", true))()
 
 elseif game.PlaceId == 606849621 then
-https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak%203
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak%203", true))()
 end
  
  
