@@ -140,8 +140,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 
 elseif game.PlaceId == 606849621 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak%203", true))()
-end
- 
+
+elseif game.PlaceId == 7050008107 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Hospital%20Tycoon", true))()
+end 
  
  
  
