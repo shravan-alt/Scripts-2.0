@@ -83,11 +83,6 @@ elseif game.PlaceId == 7444263453 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jetpack%20Jumpers", true))()
 
 
-
-elseif game.PlaceId == 7444263453 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jetpack%20Jumpers", true))()
-
-
 elseif game.PlaceId == 7453798168 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/YTSX", true))()
 
