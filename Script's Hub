@@ -28,6 +28,7 @@ Assassin!
 Anime Training Simulator
 Project Hero
 Anime Fighters Simulator
+Hospital Tycoon
 --]]
 
 if game.PlaceId == 4954752502 then
