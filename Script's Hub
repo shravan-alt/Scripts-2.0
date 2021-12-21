@@ -137,9 +137,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 elseif game.PlaceId == 142823291 then
 --loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Murder%20Mystery", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Murder%20Mystery%202", true))()
+
+elseif game.PlaceId == 5611648039 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Murder%20Party", true))()
 end
-
-
  
  
  
