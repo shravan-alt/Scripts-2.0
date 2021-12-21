@@ -30,6 +30,7 @@ Project Hero
 Anime Fighters Simulator
 Hospital Tycoon
 Murder Mystery 2
+Murder Party
 --]]
 
 if game.PlaceId == 4954752502 then
