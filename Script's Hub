@@ -135,7 +135,7 @@ elseif game.PlaceId == 7050008107 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Hospital%20Tycoon", true))()
 
 elseif game.PlaceId == 142823291 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Murder%20Mystery", true))()
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Murder%20Mystery", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Murder%20Mystery%202", true))()
 end
 
