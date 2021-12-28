@@ -1,4 +1,11 @@
- local plr = game.Players.LocalPlayer.Character.HumanoidRootPart
+-- Made by Henry1887#6969
+-- If you want to support me: https://paypal.me/pools/c/8CQMlwAT7n
+-- Its recommended that u dont have esp enabled while autofarming, it will impact the speed of the autofarm
+-- The obfuscated part of code at the bottom is for keeping track of how many times this script has been executed
+-- it is obfuscated because i dont want people spamming my webhook
+-- If u dont trust me, u can remove it.
+if game.PlaceId == 6875469709 then
+    local plr = game.Players.LocalPlayer.Character.HumanoidRootPart
     local auto = false
     local esp = false
     local espsize = 1
