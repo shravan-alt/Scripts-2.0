@@ -58,9 +58,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/m
 
 
 elseif game.PlaceId == 6875469709 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Infinite%20Yield", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Strongest%20Punch%20Simulator", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Strongest%20Punch%20Simulator%202", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Infinite%20Yield", true))()
 
 
 elseif game.PlaceId == 3527629287 then
