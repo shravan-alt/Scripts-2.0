@@ -31,6 +31,9 @@ Anime Fighters Simulator
 Hospital Tycoon
 Murder Mystery 2
 Murder Party
+Saber Sim
+Ninja Legends
+Anime Clicker Simulator
 --]]
 
 if game.PlaceId == 4954752502 then
