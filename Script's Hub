@@ -146,7 +146,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/m
 
 elseif game.PlaceId == 3102144307 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Clicker%20Simulator", true))()
+
+elseif game.PlaceId == 3956818381 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Ninja%20Legends", true))()
+
+elseif game.PlaceId == 3823781113 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Saber%20Simulator", true))()
 end
+
+
  
  
  
