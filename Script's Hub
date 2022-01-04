@@ -143,6 +143,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 
 elseif game.PlaceId == 5611648039 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Murder%20Party", true))()
+
+elseif game.PlaceId == 3102144307 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Clicker%20Simulator", true))()
 end
  
  
