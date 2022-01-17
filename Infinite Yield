@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Infinite%20Yield", true))()
