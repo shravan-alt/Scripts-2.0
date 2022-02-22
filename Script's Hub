@@ -34,6 +34,7 @@ Murder Party
 Saber Sim
 Ninja Legends
 Anime Clicker Simulator
+Rap Simulator
 --]]
 
 if game.PlaceId == 4954752502 then
@@ -155,7 +156,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 
 elseif game.PlaceId == 3823781113 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Saber%20Simulator", true))()
+
+elseif game.PlaceId == 8607531509 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/uzu01/lua/main/loader.lua"))()
 end
+
 
 
  
