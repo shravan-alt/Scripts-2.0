@@ -161,6 +161,10 @@ elseif game.PlaceId == 8607531509 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/uzu01/lua/main/games/Rap%20Simulator.lua"))()
 end
 
+elseif game.PlaceId == 3101667897 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed"))()
+end
+
 
 
  
