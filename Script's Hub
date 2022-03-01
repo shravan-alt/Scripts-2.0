@@ -36,6 +36,7 @@ Ninja Legends
 Anime Clicker Simulator
 Rap Simulator
 Legends Of Speed ⚡
+Loomian Legacy
 --]]
 
 if game.PlaceId == 4954752502 then
@@ -166,6 +167,9 @@ elseif game.PlaceId == 3101667897 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed"))()
 end
 
+elseif game.PlaceId == 306964494 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/LoomianCandy", true))()
+end
 
 
  
