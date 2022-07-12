@@ -171,7 +171,7 @@ elseif game.PlaceId == 306964494 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/LoomianCandy", true))()
 
 elseif game.PlaceId == 3623096087 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Muscle%20Legends%20AFK", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Muscle%20Legends%20Auto%20Farm", true))()
 end
 
 
