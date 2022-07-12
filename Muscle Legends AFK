@@ -1,5 +1,4 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Muscle%20Legends%20Auto%20Punch", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Infinite%20Yield", true))()
 while true do
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
 wait()
