@@ -1,0 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK", true))()
+while true do
+game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch","rightHand", "leftHand")
+wait()
+end
