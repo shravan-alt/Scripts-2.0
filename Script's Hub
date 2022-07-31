@@ -172,7 +172,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGith
 loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()
 
 elseif game.PlaceId == 7026949294 then
-loadstring(game:HttpGet("https://xyba.dev/raw/Sword_Simulator.lua",true))()
+loadstring(game:HttpGet("https://arches-systems.com/loader.lua",true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
 
 elseif game.PlaceId == 1899149341 then
