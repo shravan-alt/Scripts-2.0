@@ -37,6 +37,8 @@ Anime Clicker Simulator
 Rap Simulator
 Legends Of Speed ⚡
 Loomian Legacy
+Vehicle Tycoon
+Sword Simulator
 --]]
 
 if game.PlaceId == 4954752502 then
