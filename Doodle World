@@ -1,0 +1,9 @@
+getgenv().autofarm_settings = {
+    specific_doodles = { --add a comma after each doodle except for the last one
+        
+    },
+    blacklist_doodles = { --always runs no matter what
+        
+    }
+}
+loadstring(game:HttpGet("https://spelling.wtf/scripts/doodleworld.lua"))()
