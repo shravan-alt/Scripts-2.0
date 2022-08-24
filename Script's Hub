@@ -179,6 +179,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/mai
 
 elseif game.PlaceId == 1899149341 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Vehicle%20Tycoon"))()
+
+elseif game.PlaceId == 8884334497 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
 end
 
 
