@@ -181,7 +181,10 @@ elseif game.PlaceId == 1899149341 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Vehicle%20Tycoon"))()
 
 elseif game.PlaceId == 8884334497 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+
+elseif game.PlaceId == 3623096087 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Muscle%20Legends%203"))()
 end
 
 
