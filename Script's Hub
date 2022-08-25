@@ -60,51 +60,40 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/m
 elseif game.PlaceId == 6824046084 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub", true))()
 
-
 elseif game.PlaceId == 3652625463 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub", true))()
-
 
 elseif game.PlaceId == 6875469709 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Infinite%20Yield", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Strongest%20Punch%20Simulator", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Strongest%20Punch%20Simulator%202", true))()
 
-
 elseif game.PlaceId == 3527629287 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20Auto%20Farm", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20%7C%20Unlock%20All", true))()
 
-
 elseif game.PlaceId == 277751860 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Epic%20Minigames", true))()
-
 
 elseif game.PlaceId == 7549229959 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Squid%20Game", true))()
 
-
 elseif game.PlaceId == 7239452266 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pop%20It%20Simulator", true))()
-
 
 elseif game.PlaceId == 7444263453 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jetpack%20Jumpers", true))()
 
-
 elseif game.PlaceId == 7453798168 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/YTSX", true))()
-
 
 elseif game.PlaceId == 606849621 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak%203", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak%202", true))()
 
-
 elseif game.PlaceId == 4704006941 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Blade%20Throwing%20Simulator", true))()
-
 
 elseif game.PlaceId == 6284583030 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pet%20Sim%20X", true))()
