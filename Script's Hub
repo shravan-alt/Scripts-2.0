@@ -155,6 +155,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/uzu01/lua/main/games/
 elseif game.PlaceId == 3101667897 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed%20AutoRace"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Vynixius%20Legends%20Of%20Speed"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK", true))()
 
 elseif game.PlaceId == 306964494 then
