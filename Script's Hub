@@ -44,7 +44,6 @@ Sword Simulator
 if game.PlaceId == 4954752502 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub", true))()
 
-
 elseif game.PlaceId == 5874128725 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub", true))()
 
