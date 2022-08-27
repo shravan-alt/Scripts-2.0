@@ -152,12 +152,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 elseif game.PlaceId == 8607531509 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/uzu01/lua/main/games/Rap%20Simulator.lua"))()
 
-elseif game.PlaceId == 3101667897 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed%20AutoRace", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Vynixius%20Legends%20Of%20Speed", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK", true))()
-
 elseif game.PlaceId == 306964494 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/LoomianCandy", true))()
 loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()
@@ -174,8 +168,12 @@ loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.
 
 elseif game.PlaceId == 3623096087 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Muscle%20Legends%203"))()
-end
 
+elseif game.PlaceId == 3101667897 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed%20AutoRace", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Vynixius%20Legends%20Of%20Speed", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK", true))()
 
 
 
