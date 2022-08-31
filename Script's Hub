@@ -39,6 +39,7 @@ Legends Of Speed ⚡
 Loomian Legacy
 Vehicle Tycoon
 Sword Simulator
+Muscle Legends
 --]]
 
 if game.PlaceId == 4954752502 then
@@ -174,6 +175,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed%20AutoRace", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK", true))()
 
+elseif game.PlaceId == 8884334497 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+end
 
 
  
