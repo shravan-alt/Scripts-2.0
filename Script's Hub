@@ -174,9 +174,6 @@ elseif game.PlaceId == 3101667897 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed%20AutoRace", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK", true))()
-
-elseif game.PlaceId == 8884334497 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
 end
 
 
