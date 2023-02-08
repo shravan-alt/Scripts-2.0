@@ -178,9 +178,9 @@ elseif game.PlaceId == 3623096087 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Muscle%20Legends%203"))()
 
 elseif game.PlaceId == 3101667897 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed%20AutoRace", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK", true))()
 end
 
