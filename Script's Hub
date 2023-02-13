@@ -175,7 +175,7 @@ elseif game.PlaceId == 8884334497 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
 
 elseif game.PlaceId == 3623096087 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Muscle%20Legends%203"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Muscle%20Legends%20UI"))()
 
 elseif game.PlaceId == 3101667897 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua"))()
