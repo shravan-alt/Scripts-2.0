@@ -40,6 +40,7 @@ Loomian Legacy
 Vehicle Tycoon
 Sword Simulator
 Muscle Legends
+Race Clicker
 --]]
 
 if game.PlaceId == 4954752502 then
@@ -182,6 +183,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixiu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Legends%20Of%20Speed%20AutoRace", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK", true))()
+
+elseif game.PlaceId == 9285238704 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Race%20Clicker", true))()
 end
 
 
