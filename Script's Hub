@@ -41,7 +41,6 @@ Vehicle Tycoon
 Sword Simulator
 Muscle Legends
 Race Clicker
-Project Slayer
 --]]
 
 if game.PlaceId == 4954752502 then
