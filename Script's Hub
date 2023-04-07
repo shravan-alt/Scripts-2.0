@@ -41,6 +41,7 @@ Vehicle Tycoon
 Sword Simulator
 Muscle Legends
 Race Clicker
+Project Slayer
 --]]
 
 if game.PlaceId == 4954752502 then
@@ -186,6 +187,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/m
 
 elseif game.PlaceId == 9285238704 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Race%20Clicker", true))()
+
+elseif game.PlaceId == 5956785391 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Project%20Slayer%20Script", true))()
 end
 
 
