@@ -188,7 +188,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/m
 elseif game.PlaceId == 9285238704 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Race%20Clicker", true))()
 
-elseif game.PlaceId == 5956785391 then
+elseif game.PlaceId == 11468159863 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Project%20Slayer%20Script", true))()
+
+elseif game.PlaceId == 6152116144 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Project%20Slayer%20Script", true))()
 end
 
