@@ -188,7 +188,7 @@ elseif game.PlaceId == 9285238704 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Race%20Clicker", true))()
 
 elseif game.PlaceId == 13127800756 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/screech/main/AWS", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zicus-scripts/SkullHub/main/Loader.lua"))()
 end
 
  
