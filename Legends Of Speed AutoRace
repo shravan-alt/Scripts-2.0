@@ -1,3 +1,33 @@
+local filename = "LOS.txt"
+local HttpService = game:GetService("HttpService")
+local Player = game:GetService('Players').LocalPlayer
+local CoreGui = game:GetService('CoreGui')
+
+local settingsTable = {
+    autorings = false,
+    autorace = false
+}
+
+function loadSettings()
+    print("Loading settings...")
+    if isfile and isfile(filename) then
+        settingsTable = HttpService:JSONDecode(readfile(filename))
+        print("Settings loaded")
+        print("--New Values are--")
+        for i, v in pairs(settingsTable) do
+            print(i, v)
+        end
+    end
+end
+
+function saveSettings()
+    print("Saving user settings...")
+    local json = HttpService:JSONEncode(settingsTable)
+    writefile(filename, json)
+end
+
+loadSettings()
+
 local Player = game:GetService('Players').LocalPlayer
 Player.Idled:connect(function()
 	game:GetService('VirtualUser'):Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
@@ -155,21 +185,16 @@ AutoRings.BorderSizePixel = 0
 AutoRings.Position = UDim2.new(0, 125, 0, 0)
 AutoRings.Size = UDim2.new(0, 125, 0, 35)
 AutoRings.Font = Enum.Font.Highway
-AutoRings.Text = 'Auto Rings:❎'
+AutoRingsToggle = settingsTable.autorings or false
+AutoRings.Text = 'Auto Rings:' .. (AutoRingsToggle and '✅' or '❎')
 AutoRings.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoRings.TextSize = 16
 
-local AutoRingsToggle = false
-AutoRings.MouseButton1Click:connect(function()
-	if AutoRingsToggle == false then
-		AutoRingsToggle = true
-		AutoRings.Text = 'Auto Rings:✅'
-	else
-		if AutoRingsToggle == true then
-			AutoRingsToggle = false
-			AutoRings.Text = 'Auto Rings:❎'
-		end
-	end
+AutoRings.MouseButton1Click:Connect(function()
+    AutoRingsToggle = not AutoRingsToggle
+    settingsTable.autorings = AutoRingsToggle
+    AutoRings.Text = 'Auto Rings:' .. (AutoRingsToggle and '✅' or '❎')
+    saveSettings() -- Call saveSettings() to store the updated setting
 end)
 
 local AutoRebirth = Instance.new('TextButton', Background)
@@ -205,21 +230,16 @@ AutoRace.BorderSizePixel = 0
 AutoRace.Position = UDim2.new(0, 125, 0, 35)
 AutoRace.Size = UDim2.new(0, 125, 0, 35)
 AutoRace.Font = Enum.Font.Highway
-AutoRace.Text = 'Auto Race:❎'
+AutoRaceToggle = settingsTable.autorace or false
+AutoRace.Text = 'Auto Race:' .. (AutoRaceToggle and '✅' or '❎')
 AutoRace.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoRace.TextSize = 16
 
-local AutoRaceToggle = false
-AutoRace.MouseButton1Click:connect(function()
-	if AutoRaceToggle == false then
-		AutoRaceToggle = true
-		AutoRace.Text = 'Auto Race:✅'
-	else
-		if AutoRaceToggle == true then
-			AutoRaceToggle = false
-			AutoRace.Text = 'Auto Race:❎'
-		end
-	end
+AutoRace.MouseButton1Click:Connect(function()
+    AutoRaceToggle = not AutoRaceToggle
+    settingsTable.autorace = AutoRaceToggle
+    AutoRace.Text = 'Auto Race:' .. (AutoRaceToggle and '✅' or '❎')
+    saveSettings() -- Call saveSettings() to store the updated setting
 end)
 
 local HidePopups = Instance.new('TextButton', Notification)
@@ -538,47 +558,43 @@ end)
 CoreGui.LegendsOfSpeed.Header:TweenPosition(UDim2.new(0, 5, 0, 10), 'In', 'Back', 0.5)
 
 game:GetService('ReplicatedStorage').raceInProgress.Changed:Connect(function()
-	if AutoRaceToggle == true then
-		if game:GetService('ReplicatedStorage').raceInProgress.Value == true then
-			game:GetService('ReplicatedStorage').rEvents.raceEvent:FireServer("joinRace")
-		end
-	end
+    if settingsTable.autorace and game:GetService('ReplicatedStorage').raceInProgress.Value then
+        game:GetService('ReplicatedStorage').rEvents.raceEvent:FireServer("joinRace")
+    end
 end)
 
 game:GetService('ReplicatedStorage').raceStarted.Changed:Connect(function()
-	if AutoRaceToggle == true then
-		if game:GetService('ReplicatedStorage').raceStarted.Value == true then
-			for i, v in pairs(game:GetService('Workspace').raceMaps:GetChildren()) do
-				local OldFinishPosition = v.finishPart.CFrame
-				v.finishPart.CFrame = Player.Character.HumanoidRootPart.CFrame
-				wait()
-				v.finishPart.CFrame = OldFinishPosition
-			end
-		end
-	end
+    if settingsTable.autorace and game:GetService('ReplicatedStorage').raceStarted.Value then
+        for i, v in pairs(game:GetService('Workspace').raceMaps:GetChildren()) do
+            local OldFinishPosition = v.finishPart.CFrame
+            v.finishPart.CFrame = Player.Character.HumanoidRootPart.CFrame
+            wait()
+            v.finishPart.CFrame = OldFinishPosition
+        end
+    end
 end)
 
 while true do
-	for i, v in pairs(game:GetService('Workspace').orbFolder[Player.currentMap.Value]:GetChildren()) do
-		if AutoSpawnersToggle == true then
-			if v:FindFirstChildOfClass('MeshPart') then
-				v.outerGem.CFrame = Player.Character.HumanoidRootPart.CFrame
-			end
-			if v:FindFirstChildOfClass('Part') then
-				v.outerOrb.CFrame = Player.Character.HumanoidRootPart.CFrame
-			end
-		end
-	end
-	for i, v in pairs(game:GetService('Workspace').Hoops:GetChildren()) do
-		if AutoRingsToggle == true then
-			local OldHoopPosition = v.CFrame
-			v.CFrame = Player.Character.HumanoidRootPart.CFrame
-			wait()
-			v.CFrame = OldHoopPosition
-		end
-	end
-	if AutoRebirthToggle == true then
-		game:GetService('ReplicatedStorage').rEvents.rebirthEvent:FireServer("rebirthRequest")
-	end
-	wait()
+    for i, v in pairs(game:GetService('Workspace').orbFolder[Player.currentMap.Value]:GetChildren()) do
+        if AutoSpawnersToggle == true then
+            if v:FindFirstChildOfClass('MeshPart') then
+                v.outerGem.CFrame = Player.Character.HumanoidRootPart.CFrame
+            end
+            if v:FindFirstChildOfClass('Part') then
+                v.outerOrb.CFrame = Player.Character.HumanoidRootPart.CFrame
+            end
+        end
+    end
+    for i, v in pairs(game:GetService('Workspace').Hoops:GetChildren()) do
+        if AutoRingsToggle == true and settingsTable.autorings then
+            local OldHoopPosition = v.CFrame
+            v.CFrame = Player.Character.HumanoidRootPart.CFrame
+            wait(0.1)  -- Adjust this delay as needed
+            v.CFrame = OldHoopPosition
+        end
+    end
+    if AutoRebirthToggle == true then
+        game:GetService('ReplicatedStorage').rEvents.rebirthEvent:FireServer("rebirthRequest")
+    end
+    wait()
 end
