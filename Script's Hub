@@ -41,6 +41,7 @@ Vehicle Tycoon
 Sword Simulator
 Muscle Legends
 Race Clicker
+Arm Wrestle Simulator
 --]]
 
 if game.PlaceId == 4954752502 then
@@ -189,7 +190,7 @@ elseif game.PlaceId == 9285238704 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Race%20Clicker", true))()
 
 elseif game.PlaceId == 13127800756 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/flame/main/loader"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/flame/main/loader, true))()
 end
 
  
