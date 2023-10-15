@@ -1,0 +1,102 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name ="🔩 Ultimate Lifter", HidePremium = false, SaveConfig = true, ConfigFolder = "Ultimate Lifter"})
+
+--values
+_G.autoLift = true
+_G.autoSell = true
+_G.autoBuyWeight = true
+_G.autoBuyDNA = true
+
+--functions
+function autoLift()
+  while _G.autoLift == true do
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer({ "GainMuscle"})
+        wait()
+     end
+    end
+
+
+function autoSell()
+    while _G.autoSell == true do
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer({ "SellMuscle"})
+             wait()
+        end
+    end
+
+function autoBuyWeight()
+    while _G.autoBuyWeight == true do
+        local replicatedStorage = game:GetService("ReplicatedStorage")
+       local remoteEvent = replicatedStorage.RemoteEvent
+        local weight = 1
+        for i = 1, 70 do
+        remoteEvent:FireServer({"BuyItem", "Income_Item", "Weight_"..i, weight})
+        weight = weight + 1
+        end
+       wait()
+    end
+    end  
+
+function autoBuyDNA()
+        while _G.autoBuyDNA == true do
+            local replicatedStorage = game:GetService("ReplicatedStorage")
+            local remoteEvent = replicatedStorage.RemoteEvent
+            local dnaNumber = 1
+            for i = 1, 30 do
+                remoteEvent:FireServer({"BuyItem", "Bag_Item", "DNA_"..i, dnaNumber})
+                dnaNumber = dnaNumber + 1
+            end 
+           wait()
+        end
+        end  
+
+--tabs   
+local Tab = Window:MakeTab({
+	Name = "AutoFarm",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab1 = Window:MakeTab({
+	Name = "AutoBuy",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--Toggle
+Tab:AddToggle({
+	Name = "Auto Lift",
+	Default = false,
+	Callback = function(Value)
+		_G.autoLift = Value
+        autoLift()
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Sell",
+	Default = false,
+	Callback = function(Value)
+		_G.autoSell = Value
+        autoSell()
+	end    
+})
+
+Tab1:AddToggle({
+	Name = "Auto Buy Weight",
+	Default = false,
+	Callback = function(Value)
+		_G.autoBuyWeight = Value
+        autoBuyWeight()
+	end    
+})
+
+Tab1:AddToggle({
+	Name = "Auto Buy DNA",
+	Default = false,
+	Callback = function(Value)
+		_G.autoBuyDNA = Value
+        autoBuyDNA()
+	end    
+})
+
+OrionLib:Init()
