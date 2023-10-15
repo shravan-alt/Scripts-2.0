@@ -54,6 +54,7 @@ local Tab = Window:MakeTab({
 	Name = "AutoFarm",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+    
 })
 
 local Tab1 = Window:MakeTab({
@@ -64,39 +65,47 @@ local Tab1 = Window:MakeTab({
 
 --Toggle
 Tab:AddToggle({
-	Name = "Auto Lift",
-	Default = false,
-	Callback = function(Value)
-		_G.autoLift = Value
+    Name = "Auto Lift",
+    Default = false,
+    Save = true,
+    Flag = "AutoLift",
+    Callback = function(Value)
+        _G.autoLift = Value
         autoLift()
-	end    
+    end    
 })
 
 Tab:AddToggle({
-	Name = "Auto Sell",
-	Default = false,
-	Callback = function(Value)
-		_G.autoSell = Value
+    Name = "Auto Sell",
+    Default = false,
+    Save = true,
+    Flag = "AutoSell",
+    Callback = function(Value)
+        _G.autoSell = Value
         autoSell()
-	end    
+    end    
 })
 
 Tab1:AddToggle({
-	Name = "Auto Buy Weight",
-	Default = false,
-	Callback = function(Value)
-		_G.autoBuyWeight = Value
+    Name = "Auto Buy Weight",
+    Default = false,
+    Save = true,
+    Flag = "AutoBuyWeight",
+    Callback = function(Value)
+        _G.autoBuyWeight = Value
         autoBuyWeight()
-	end    
+    end    
 })
 
 Tab1:AddToggle({
-	Name = "Auto Buy DNA",
-	Default = false,
-	Callback = function(Value)
-		_G.autoBuyDNA = Value
+    Name = "Auto Buy DNA",
+    Default = false,
+    Save = true,
+    Flag = "AutoBuyDNA",
+    Callback = function(Value)
+        _G.autoBuyDNA = Value
         autoBuyDNA()
-	end    
+    end    
 })
 
 OrionLib:Init()
