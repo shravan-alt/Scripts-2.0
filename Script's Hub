@@ -189,10 +189,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts/m
 elseif game.PlaceId == 9285238704 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Race%20Clicker", true))()
 
-elseif game.PlaceId == 13127800756 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/flame/main/loader", true))()
-end
-
 elseif game.PlaceId == 13867521784 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Ultimate%20Lifter", true))()
 end
