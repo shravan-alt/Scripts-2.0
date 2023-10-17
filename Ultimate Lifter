@@ -89,22 +89,16 @@ Tab:AddToggle({
 Tab1:AddToggle({
     Name = "Auto Buy Weight",
     Default = false,
-    Save = true,
-    Flag = "AutoBuyWeight",
     Callback = function(Value)
         _G.autoBuyWeight = Value
-        autoBuyWeight()
     end    
 })
 
 Tab1:AddToggle({
     Name = "Auto Buy DNA",
     Default = false,
-    Save = true,
-    Flag = "AutoBuyDNA",
     Callback = function(Value)
         _G.autoBuyDNA = Value
-        autoBuyDNA()
     end    
 })
 
