@@ -1,0 +1,4 @@
+wait(10)
+if game.PlaceId == 3101667897 then
+game:GetService("RunService"):Set3dRenderingEnabled(false)
+end
