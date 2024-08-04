@@ -1,0 +1,24 @@
+local ReplicatedStorage = game:GetService('ReplicatedStorage')
+
+-- Function to run the provided remote script
+local function runRemote()
+    for i = 1, 50 do -- Adjust the number of remotes as needed
+        ReplicatedStorage.rEvents.orbEvent:FireServer("collectOrb", "Red Orb", "Magma City")
+    end
+end
+
+-- Timer function
+local function runWithTimer()
+    local startTime = tick() -- Record the start time
+    local endTime = startTime + 24 * 60 * 60 -- Calculate the end time for 12 hours
+
+    while tick() < endTime do
+        print("Seconds remaining:", endTime - tick())
+        runRemote() -- Run the provided remote function
+        wait() -- Change the wait to 0.3 seconds
+    end
+    print("Script execution completed.")
+end
+
+-- Run the script with timer
+runWithTimer()
