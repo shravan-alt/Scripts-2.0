@@ -897,7 +897,7 @@ FarmSection:AddToggle({
                 pcall(function()
                 if KillAura or getgenv().AllBosses then
                     attack(attackMethods[Method])
-                    task.wait(1.25)
+                    task.wait(0.5)
 					repeat wait() until game.Players.LocalPlayer:WaitForChild("combotangasd123").Value == 0
                     end
                 end)
