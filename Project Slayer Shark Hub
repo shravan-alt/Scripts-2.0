@@ -380,7 +380,7 @@ end
 --------- LIBRARY
 	
 	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-	local Window = OrionLib:MakeWindow({Name = "Shark Hub v1 PREMIUM // Project Slayers // Ouwigahara", HidePremium = true, SaveConfig = false, ConfigFolder = "SharkHubv1Ouwigahara"})
+	local Window = OrionLib:MakeWindow({Name = "Shark Hub v1 PREMIUM // Project Slayers // Ouwigahara", HidePremium = true, SaveConfig = true, ConfigFolder = "SharkHubv1Ouwigahara"})
 local HttpService = game:GetService("HttpService")
 local WebhookURL = "" 
 	local MainTab = Window:MakeTab({
