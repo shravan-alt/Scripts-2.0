@@ -195,7 +195,7 @@ local supportedGames = {
 
 -- Universal Anti-AFK script URL
 local antiAFKScript = "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK"
-
+local antiLagScript = "https://raw.githubusercontent.com/shravan-alt/Scripts/refs/heads/main/Anti%20Lag%20(Optimizer)"
 -- Load appropriate scripts for the game
 local placeId = game.PlaceId
 if supportedGames[placeId] then
