@@ -1,5 +1,4 @@
 --[[Supported Games
-
 Tower Of Misery
 No Jumping Difficulty Chart Obby
 Mega Easy Obby 🌟 725 Stages
@@ -48,80 +47,123 @@ Arm Wrestle Simulator
 local supportedGames = {
     [4954752502] = {
         "https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub",
-        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",  -- Universal Anti-AFK
     },
     [5874128725] = {
         "https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub",
-        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",  -- Universal Anti-AFK
     },
     [3587619225] = {
         "https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub",
-        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",  -- Universal Anti-AFK
     },
     [12996397] = {
         "https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub",
-        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",  -- Universal Anti-AFK
     },
     [982130670] = {
         "https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub",
-        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",  -- Universal Anti-AFK
     },
     [6824046084] = {
         "https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub",
-        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",  -- Universal Anti-AFK
     },
     [3652625463] = {
         "https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub",
-        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",  -- Universal Anti-AFK
     },
     [6875469709] = {
         "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Infinite%20Yield",
         "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Strongest%20Punch%20Simulator",
         "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Strongest%20Punch%20Simulator%202",
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",  -- Universal Anti-AFK
     },
     [3527629287] = {
         "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20Auto%20Farm",
         "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Big%20PaintBall%20%7C%20Unlock%20All",
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK",  -- Universal Anti-AFK
     },
     [277751860] = {
         "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Epic%20Minigames",
     },
-
-  },
     [7549229959] = {
         "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Squid%20Game",
     },
-}
--- Supported Games Place IDs and URLs
-local supportedGames = {
-    [7239452266] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pop%20It%20Simulator" },
-    [7444263453] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jetpack%20Jumpers" },
-    [7453798168] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/YTSX" },
+    [7239452266] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pop%20It%20Simulator"
+    },
+    [7444263453] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jetpack%20Jumpers"
+    },
+    [7453798168] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/YTSX"
+    },
     [606849621] = {
         "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak",
         "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak%203",
-        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak%202" },
-
-    [4704006941] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Blade%20Throwing%20Simulator" },
-    [6284583030] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pet%20Sim%20X" },
-    [4623386862] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Piggy" },
-    [1224212277] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Mad%20City" },
-    [6677985923] = { "https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub" },
-    [7449695387] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pet%20Fighters%20Simulator" },
-    [2788229376] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Da%20Hood" },
-    [6802248248] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/SAITAMANIA" },
-    [5926001758] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Color%20Block" },
-    [379614936] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Assassin!" },
-    [7114796110] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Training%20Simulator" },
-    [6085581583] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Project%20Hero" },
-    [6299805723] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Fighters%20Simulator" },
-    [7050008107] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Hospital%20Tycoon" },
-    [142823291] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Murder%20Mystery%202" },
-    [5611648039] = { "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Murder%20Party" },
-    [3102144307] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Clicker%20Simulator" },
-    [3956818381] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Ninja%20Legends" },
-    [3823781113] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Saber%20Simulator" },
-    [8607531509] = { "https://raw.githubusercontent.com/uzu01/lua/main/games/Rap%20Simulator.lua" },
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Jailbreak%202"
+    },
+    [4704006941] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Blade%20Throwing%20Simulator"
+    },
+    [6284583030] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pet%20Sim%20X"
+    },
+    [4623386862] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Piggy"
+    },
+    [1224212277] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Mad%20City"
+    },
+    [6677985923] = {
+        "https://raw.githubusercontent.com/ROBLOXPRO01/Scripts/main/ROBLOXPRO's%20Hub"
+    },
+    [7449695387] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Pet%20Fighters%20Simulator"
+    },
+    [2788229376] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Da%20Hood"
+    },
+    [6802248248] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/SAITAMANIA"
+    },
+    [5926001758] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Color%20Block"
+    },
+    [379614936] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Assassin!"
+    },
+    [7114796110] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Training%20Simulator"
+    },
+    [6085581583] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Project%20Hero"
+    },
+    [6299805723] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Fighters%20Simulator"
+    },
+    [7050008107] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Hospital%20Tycoon"
+    },
+    [142823291] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Murder%20Mystery%202"
+    },
+    [5611648039] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Murder%20Party"
+    },
+    [3102144307] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Anime%20Clicker%20Simulator"
+    },
+    [3956818381] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Ninja%20Legends"
+    },
+    [3823781113] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Saber%20Simulator"
+    },
+    [8607531509] = {
+        "https://raw.githubusercontent.com/uzu01/lua/main/games/Rap%20Simulator.lua"
+    },
     [306964494] = {
         "https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/LoomianCandy",
         "https://thedragonslayer2.github.io/AutoExec.html"
@@ -130,8 +172,12 @@ local supportedGames = {
         "https://arches-systems.com/loader.lua",
         "https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"
     },
-    [1899149341] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Vehicle%20Tycoon" },
-    [8884334497] = { "https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main" },
+    [1899149341] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Vehicle%20Tycoon"
+    },
+    [8884334497] = {
+        "https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"
+    },
     [3623096087] = {
         "https://raw.githubusercontent.com/1201for/littlegui/main/MuscleLegends",
         "https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua"
@@ -139,26 +185,25 @@ local supportedGames = {
     [3101667897] = {
         "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK"
     },
-    [9285238704] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Race%20Clicker" },
-    [13867521784] = { "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/%F0%9F%94%A9%20Ultimate%20Lifter" },
+    [9285238704] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/Race%20Clicker"
+    },
+    [13867521784] = {
+        "https://raw.githubusercontent.com/shravan-alt/Scripts-2.0/main/%F0%9F%94%A9%20Ultimate%20Lifter"
+    },
 }
+
+-- Universal Anti-AFK script URL
+local antiAFKScript = "https://raw.githubusercontent.com/shravan-alt/Scripts/main/Anti-AFK"
 
 -- Load appropriate scripts for the game
 local placeId = game.PlaceId
 if supportedGames[placeId] then
+    -- Load game-specific scripts
     for _, url in ipairs(supportedGames[placeId]) do
         loadstring(game:HttpGet(url, true))()
     end
-end
-
--- Function to load scripts for the current PlaceId
-local function loadScriptsForPlaceId(placeId)
-    local scripts = supportedGames[placeId]
-    if scripts then
-        for _, url in ipairs(scripts) do
-            pcall(function()
-                loadstring(game:HttpGet(url, true))()
-            end)
-        end
-    end
+    
+    -- Always load Anti-AFK script for any supported game
+    loadstring(game:HttpGet(antiAFKScript, true))()
 end
